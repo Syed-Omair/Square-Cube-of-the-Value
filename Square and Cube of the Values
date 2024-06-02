@@ -1,0 +1,13 @@
+x=int(input("Enter the first value:"))
+y=int(input("Enter the second value:"))
+print("Numbers\t\t\tSquares\t\t\tCubes")
+if(y>x):
+  while(y>=x):
+    print(x,"\t\t\t",x**2,"\t\t\t",x**3)
+    x+=1
+elif(x==y):
+    print(x,"\t\t\t",x**2,"\t\t\t",x**3)
+else:
+  while(x>=y):
+    print(y,"\t\t\t",y**2,"\t\t\t",y**3)
+    y+=1
